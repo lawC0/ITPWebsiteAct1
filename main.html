@@ -82,6 +82,13 @@
         </style>
     </head>
 
+    <script>
+        function openPDF() {
+        
+        var pdfPath = 'res/Resume.pdf';
+        window.open(pdfPath, '_blank');
+        }
+    </script>
 
 
 
@@ -107,9 +114,7 @@
             Genre: Alternative/Indie <br>
             
             <center style="background-color: rgb(215, 215, 215);">
-                <button class="ytBt"> YouTube </button> <!--https://www.youtube.com/@wallowsmusic-->
-                <button class="wallBt"> Wallows Music</button> <!--https://www.wallowsmusic.com/-->
-                <button class="twtBt"> Twitter</button> <!--https://twitter.com/wallowsmusic-->
+                <button class="wallBt" onclick="openPDF()"> Resume</button> 
             </center>
             
         </p>
